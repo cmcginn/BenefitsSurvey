@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ReportForms", "ReportForms\ReportForms.vbproj", "{BD9DD1FC-05A8-4CFE-BF93-95ABF0A04463}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyReportForms", "ReportForms\MyReportForms.vbproj", "{BD9DD1FC-05A8-4CFE-BF93-95ABF0A04463}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{75DBCA5E-C3D7-4DF7-B478-3D7DAA5DF4E6}"
 	ProjectSection(SolutionItems) = preProject

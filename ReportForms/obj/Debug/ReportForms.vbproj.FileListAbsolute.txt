@@ -12,3 +12,11 @@ C:\Projects\Prototypes\BenefitsReporting\ReportForms\obj\Debug\ReportForms.vbpro
 C:\Projects\Prototypes\BenefitsReporting\ReportForms\obj\Debug\ReportForms.exe
 C:\Projects\Prototypes\BenefitsReporting\ReportForms\obj\Debug\ReportForms.xml
 C:\Projects\Prototypes\BenefitsReporting\ReportForms\obj\Debug\ReportForms.pdb
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\ReportForms.exe.config
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.exe
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.xml
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.pdb
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.vbprojResolveAssemblyReference.cache
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.Form1.resources
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.Resources.resources
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.vbproj.GenerateResource.Cache
