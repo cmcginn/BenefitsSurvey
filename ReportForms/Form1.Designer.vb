@@ -23,7 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
-        Me.Benefits_Domestic_Partner_Benefits1 = New MyReportForms.Benefits_Domestic_Partner_Benefits()
+        Me.Benefits_General_Report1 = New ReportForms.Benefits_General_Report()
         Me.SuspendLayout()
         '
         'CrystalReportViewer1
@@ -34,7 +34,7 @@ Partial Class Form1
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 0)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.ReportSource = Me.Benefits_Domestic_Partner_Benefits1
+        Me.CrystalReportViewer1.ReportSource = Me.Benefits_General_Report1
         Me.CrystalReportViewer1.Size = New System.Drawing.Size(1054, 762)
         Me.CrystalReportViewer1.TabIndex = 0
         '
@@ -50,6 +50,7 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents Benefits_Domestic_Partner_Benefits1 As MyReportForms.Benefits_Domestic_Partner_Benefits
+    Friend WithEvents Benefits_General_Report1 As ReportForms.Benefits_General_Report
+
 
 End Class

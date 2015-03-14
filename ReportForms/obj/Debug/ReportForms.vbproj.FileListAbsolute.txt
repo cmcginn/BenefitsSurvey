@@ -20,3 +20,10 @@ C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.vbprojResol
 C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.Form1.resources
 C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.Resources.resources
 C:\Projects\cmcginn\BenefitsSurvey\ReportForms\obj\Debug\ReportForms.vbproj.GenerateResource.Cache
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\ReportForms.exe
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\ReportForms.pdb
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\ReportForms.xml
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\CrystalDecisions.Shared.dll
+C:\Projects\cmcginn\BenefitsSurvey\ReportForms\bin\Debug\CrystalDecisions.Windows.Forms.dll
