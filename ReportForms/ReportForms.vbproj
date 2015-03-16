@@ -194,6 +194,12 @@
       <DependentUpon>Welfare_DisabilityInsurance.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Welfare_EmployeeAssistancePlan.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Welfare_EmployeeAssistancePlan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Welfare_FlexSpending.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -272,6 +278,10 @@
     <EmbeddedResource Include="Reports\Welfare_DisabilityInsurance.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Welfare_DisabilityInsurance.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Welfare_EmployeeAssistancePlan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Welfare_EmployeeAssistancePlan.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Welfare_FlexSpending.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
