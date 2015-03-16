@@ -176,6 +176,12 @@
       <DependentUpon>Benefits_MedicalPlan_General.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Benefits_MedicalPlan_HealthCareReform.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benefits_MedicalPlan_HealthCareReform.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Organization.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -236,6 +242,10 @@
     <EmbeddedResource Include="Reports\Benefits_MedicalPlan_General.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_MedicalPlan_General.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Benefits_MedicalPlan_HealthCareReform.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Benefits_MedicalPlan_HealthCareReform.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Organization.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
