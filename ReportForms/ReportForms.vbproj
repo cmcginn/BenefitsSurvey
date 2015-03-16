@@ -218,6 +218,15 @@
       <DependentUpon>Welfare_LongTermCareInsurance.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\WorkLife_PaidTimeOff.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\WorkLife_PaidTimeOff1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkLife_PaidTimeOff.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -300,6 +309,10 @@
     <EmbeddedResource Include="Reports\Welfare_LongTermCareInsurance.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Welfare_LongTermCareInsurance.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WorkLife_PaidTimeOff.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkLife_PaidTimeOff1.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
