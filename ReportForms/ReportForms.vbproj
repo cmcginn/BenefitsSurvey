@@ -182,6 +182,12 @@
       <DependentUpon>Benefits_MedicalPlan_HealthCareReform.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Holidays.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Holidays.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Organization.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -222,6 +228,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WorkLife_AnnualLeave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\WorkLife_HealthWellness.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkLife_HealthWellness.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\WorkLife_PaidTimeOff.vb">
@@ -304,6 +316,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_MedicalPlan_HealthCareReform.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Holidays.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Holidays.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Organization.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Organization.vb</LastGenOutput>
@@ -331,6 +347,10 @@
     <EmbeddedResource Include="Reports\WorkLife_AnnualLeave.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>WorkLife_AnnualLeave.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WorkLife_HealthWellness.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkLife_HealthWellness.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_PaidTimeOff.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
