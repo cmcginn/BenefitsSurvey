@@ -218,6 +218,12 @@
       <DependentUpon>Welfare_LongTermCareInsurance.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\WorkLife_AnnualLeave.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkLife_AnnualLeave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\WorkLife_PaidTimeOff.vb">
       <SubType>Component</SubType>
     </Compile>
@@ -225,6 +231,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WorkLife_PaidTimeOff.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\WorkLife_PersonalLeave.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkLife_PersonalLeave.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
@@ -310,9 +322,17 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Welfare_LongTermCareInsurance.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WorkLife_AnnualLeave.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkLife_AnnualLeave.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_PaidTimeOff.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>WorkLife_PaidTimeOff1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WorkLife_PersonalLeave.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkLife_PersonalLeave.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
