@@ -236,6 +236,12 @@
       <DependentUpon>Retirement_PartcipantContributions.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Retirement_PlanLoans.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Retirement_PlanLoans.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Retirement_PlanParticipation.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -423,6 +429,10 @@
     <EmbeddedResource Include="Reports\Retirement_PartcipantContributions.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Retirement_PartcipantContributions.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Retirement_PlanLoans.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Retirement_PlanLoans.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Retirement_PlanParticipation.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
