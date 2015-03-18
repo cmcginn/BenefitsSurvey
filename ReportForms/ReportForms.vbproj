@@ -242,6 +242,12 @@
       <DependentUpon>WorkLife_AnnualLeave.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\WorkLife_FinancialCompensation.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WorkLife_FinancialCompensation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\WorkLife_HealthWellness.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -385,6 +391,10 @@
     <EmbeddedResource Include="Reports\WorkLife_AnnualLeave.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>WorkLife_AnnualLeave.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\WorkLife_FinancialCompensation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>WorkLife_FinancialCompensation.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_HealthWellness.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
