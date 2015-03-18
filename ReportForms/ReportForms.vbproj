@@ -194,6 +194,12 @@
       <DependentUpon>Benefits_MedicalPlan_HealthCareReform.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Benefits_PartTimeEmployees.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benefits_PartTimeEmployees.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Benefits_Retirement_Administration.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -204,6 +210,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Benefits_Retirement_Distributions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Benefits_ServiceContractAct.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benefits_ServiceContractAct.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\Benefits_Tuition_Reimbursement.vb">
@@ -426,6 +438,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_MedicalPlan_HealthCareReform.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Benefits_PartTimeEmployees.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Benefits_PartTimeEmployees.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\Benefits_Retirement_Administration.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_Retirement_Administration.vb</LastGenOutput>
@@ -433,6 +449,10 @@
     <EmbeddedResource Include="Reports\Benefits_Retirement_Distributions.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_Retirement_Distributions.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Benefits_ServiceContractAct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Benefits_ServiceContractAct.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Benefits_Tuition_Reimbursement.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
