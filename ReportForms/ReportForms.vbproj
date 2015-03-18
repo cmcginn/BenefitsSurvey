@@ -230,6 +230,12 @@
       <DependentUpon>Retirement_CompanyContributions.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Retirement_DefferredCompPlans.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Retirement_DefferredCompPlans.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Retirement_DefinedPlan.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -437,6 +443,10 @@
     <EmbeddedResource Include="Reports\Retirement_CompanyContributions.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Retirement_CompanyContributions.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Retirement_DefferredCompPlans.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Retirement_DefferredCompPlans.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Retirement_DefinedPlan.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
