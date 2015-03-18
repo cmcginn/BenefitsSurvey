@@ -116,6 +116,12 @@
       <DependentUpon>Benefits_Domestic_Partner_Benefits.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Benefits_Executive_Retirement.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benefits_Executive_Retirement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Benefits_Fringe.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -367,6 +373,10 @@
     <EmbeddedResource Include="Reports\Benefits_Domestic_Partner_Benefits.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_Domestic_Partner_Benefits.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Benefits_Executive_Retirement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Benefits_Executive_Retirement.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Benefits_Fringe.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
