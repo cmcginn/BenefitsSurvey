@@ -188,6 +188,12 @@
       <DependentUpon>Benefits_MedicalPlan_HealthCareReform.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Benefits_Tuition_Reimbursement.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Benefits_Tuition_Reimbursement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Holidays.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -325,6 +331,10 @@
     <EmbeddedResource Include="Reports\Benefits_MedicalPlan_HealthCareReform.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Benefits_MedicalPlan_HealthCareReform.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Benefits_Tuition_Reimbursement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Benefits_Tuition_Reimbursement.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Holidays.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
