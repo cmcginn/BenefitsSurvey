@@ -200,6 +200,12 @@
       <DependentUpon>Holidays.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Identity_Theft_Report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Identity_Theft_Report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\Organization.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -363,6 +369,10 @@
     <EmbeddedResource Include="Reports\Holidays.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Holidays.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Identity_Theft_Report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Identity_Theft_Report.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Organization.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
