@@ -275,6 +275,12 @@
       <DependentUpon>WorkLife_Telecommuting.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Reports\Worklife_TravelTransportation.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Worklife_TravelTransportation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Reports\WorkLife_WorkEnvironment.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -399,6 +405,10 @@
     <EmbeddedResource Include="Reports\WorkLife_Telecommuting.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>WorkLife_Telecommuting.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Worklife_TravelTransportation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Worklife_TravelTransportation.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_WorkEnvironment.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
