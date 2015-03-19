@@ -333,9 +333,6 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Reports\WorkLife_PaidTimeOff.vb">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Reports\WorkLife_PaidTimeOff1.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>WorkLife_PaidTimeOff.rpt</DependentUpon>
@@ -532,7 +529,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_PaidTimeOff.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>WorkLife_PaidTimeOff1.vb</LastGenOutput>
+      <LastGenOutput>WorkLife_PaidTimeOff.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\WorkLife_PersonalLeave.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
